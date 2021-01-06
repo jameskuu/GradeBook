@@ -15,10 +15,10 @@ namespace GradeBook.Tests
             var book = new Book("");
 
             // act
-        
 
+            book.AddGrade(79.9);
             // assert
-          
+            Assert.AreEqual()
         }
     }
 }
